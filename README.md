@@ -24,14 +24,14 @@ were touched at any point.
 
 ## 🔍 What was done
 
-**Week 1 — Threat Identification**
+**Threat Identification**
 - Full TCP service/version/OS-detection scan with Nmap (`nmap -sS -sV -O`)
 - Packet capture and analysis of FTP and HTTP traffic with Wireshark to demonstrate plaintext credential exposure
 - Unauthenticated external vulnerability scan with Nessus (Basic Network Scan policy)
 - Documented 10 Critical-severity findings, including a known FTP backdoor (CVE-2011-2523) and an
   unauthenticated root-level bind shell on port 1524
 
-**Week 2 — Vulnerability Assessment**
+**Vulnerability Assessment**
 - Follow-up automated scan cross-referencing findings against published CVEs and vendor advisories
 - Risk analysis of what an external, unauthenticated attacker could realistically achieve
 - Prioritized mitigation roadmap (patch, reconfigure, or replace end-of-life components)
